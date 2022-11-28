@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(-135deg,#c850c0,#4158d0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.form {
+    width: 960px;
+    height: 680px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+}
+
+.login-img {
+    width: 487px;
+
+}
+
+.login-img img {
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 130px;
+}
+
+.form .form-login {
+    width: 100%;
+}
+
+.form .form-login h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.form .form-login .email ,
+.form .form-login .password {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form .form-login .email input,
+.form .form-login .password input {
+    width: 240px;
+    height: 50px;
+    border-radius: 9000px;
+    border: none;
+    background-color: #e6e6e6;
+    padding-left: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.form .form-login .email i,
+.form .form-login .password i {
+    position: absolute;
+    top: 17px;
+    left: 140px;
+
+}
+
+.form .form-login .loginbtn {
+    width: 290px;
+    height: 50px;
+    border-radius: 9000px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: 'montserrat', sans-serif;
+    background-image: linear-gradient(to right, #00dbde, #fc00ff);
+    background-size: 200% auto;
+    transition: .5s;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form .form-login .loginbtn:hover {
+    transform: scale(0.97);
+    cursor: pointer;
+    background-position: right center;
+}
+
+.form .form-login p {
+    text-align: center;
+    color: #b1b1b1;
+    margin-top: 30px;
+}
+
+.form .form-login a {
+    text-decoration: none;
+    color: #7d7c7c;
+    transition: .5s;
+}
+
+.form .form-login a:hover {
+    color: #696969;
+}
+
+.noti_result {
+    font-size: larger;
+    position: absolute;
+    font-family: 'Montserrat';
+    min-width: 200px;
+    padding: 0 20px;
+    height: 50px;
+    background-color: #333;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 999px;
+    color: #fff;
+}
